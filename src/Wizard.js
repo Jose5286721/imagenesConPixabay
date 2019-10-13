@@ -71,6 +71,7 @@ export default class Wizard extends React.Component {
                 </button>
               )}
               {!isLastPage && <button type="submit" className="botones">Next »</button>}
+               {isLastPage && <button type="submit" className="botones">Enviar</button>}
                </div>
           </form>
         
